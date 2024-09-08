@@ -1,0 +1,21 @@
+meta {
+  name: c
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:3000/api/transactions/66c20ec4a8332fba60338091
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "Novo Título 2",
+    "type": "nuemeros",
+    "category": "n sei",
+    "amount": 500
+  }
+  
+}
